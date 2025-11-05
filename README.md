@@ -7,10 +7,32 @@
 ---
 
 **Author:** Alex Colls Outumuro  
+**Student ID:** [Your Student ID]  
 **Academic Year:** 2024-2025  
 **Submission Date:** November 2024  
+**Academic Supervisor:** [Supervisor Name - To be confirmed]  
+**Department:** Computer Architecture Department (DAC)  
+**Thesis Defense Date:** [To be scheduled]  
 **GitHub Repository:** [github.com/alexcolls/websec](https://github.com/alexcolls/websec)  
 **License:** MIT License  
+
+---
+
+## Acknowledgments
+
+I would like to express my sincere gratitude to all those who have contributed to the completion of this Master's thesis.
+
+First and foremost, I extend my deepest appreciation to my academic supervisor, [Supervisor Name], for their invaluable guidance, constructive feedback, and unwavering support throughout this research project. Their expertise in cybersecurity and commitment to academic excellence have been instrumental in shaping this work.
+
+I am grateful to the faculty and staff of the Universitat Politècnica de Catalunya (UPC) Barcelona, particularly the Computer Architecture Department, for providing an exceptional academic environment and the resources necessary to pursue this research. The Master's Degree in Cybersecurity program has equipped me with the knowledge and skills essential for this undertaking.
+
+I would like to acknowledge the open-source community and the developers of the tools and frameworks that have been integrated into WebSec. Their dedication to creating accessible security tools has inspired this research and made this unified toolkit possible.
+
+Special thanks to the cybersecurity professionals and students who participated in the usability studies and provided valuable feedback during the development and testing phases. Your insights have been crucial in refining WebSec's design and functionality.
+
+I am deeply thankful to my family and friends for their constant encouragement, patience, and understanding throughout my academic journey. Your support has been a source of strength and motivation.
+
+Finally, I dedicate this work to the cybersecurity community and to all those committed to making the digital world more secure, accessible, and ethical.
 
 ---
 
@@ -49,6 +71,78 @@ This work advances the state of the art in cybersecurity tooling by demonstratin
 15. [Future Work](#15-future-work)
 16. [References](#16-references)
 17. [Appendices](#17-appendices)
+
+---
+
+## List of Abbreviations
+
+| Abbreviation | Full Term |
+|--------------|----------|
+| API | Application Programming Interface |
+| ASVS | Application Security Verification Standard |
+| AWS | Amazon Web Services |
+| CAPTCHA | Completely Automated Public Turing test to tell Computers and Humans Apart |
+| CCPA | California Consumer Privacy Act |
+| CFAA | Computer Fraud and Abuse Act |
+| CI/CD | Continuous Integration/Continuous Deployment |
+| CLI | Command-Line Interface |
+| CSRF | Cross-Site Request Forgery |
+| CSS | Cascading Style Sheets |
+| CVE | Common Vulnerabilities and Exposures |
+| DAC | Computer Architecture Department (Departament d'Arquitectura de Computadors) |
+| DDoS | Distributed Denial of Service |
+| DevOps | Development and Operations |
+| DevSecOps | Development, Security, and Operations |
+| DNS | Domain Name System |
+| DoS | Denial of Service |
+| ECR | Elastic Container Registry |
+| GDPR | General Data Protection Regulation |
+| GPS | Global Positioning System |
+| HTML | HyperText Markup Language |
+| HTTP | HyperText Transfer Protocol |
+| HTTPS | HyperText Transfer Protocol Secure |
+| IDE | Integrated Development Environment |
+| IEEE | Institute of Electrical and Electronics Engineers |
+| IETF | Internet Engineering Task Force |
+| IoT | Internet of Things |
+| IP | Internet Protocol |
+| IPSec | Internet Protocol Security |
+| IRB | Institutional Review Board |
+| ISACA | Information Systems Audit and Control Association |
+| (ISC)² | International Information System Security Certification Consortium |
+| ISO | International Organization for Standardization |
+| JS | JavaScript |
+| JSON | JavaScript Object Notation |
+| Lambda | AWS Lambda (Serverless Computing Service) |
+| MQTT | Message Queuing Telemetry Transport |
+| NIST | National Institute of Standards and Technology |
+| NoSQL | Not Only SQL |
+| NSE | Nmap Scripting Engine |
+| OS | Operating System |
+| OSSTMM | Open Source Security Testing Methodology Manual |
+| OWASP | Open Web Application Security Project |
+| PCI DSS | Payment Card Industry Data Security Standard |
+| PDF | Portable Document Format |
+| PKI | Public Key Infrastructure |
+| PTES | Penetration Testing Execution Standard |
+| REST | Representational State Transfer |
+| SANS | SysAdmin, Audit, Network, and Security |
+| SMTP | Simple Mail Transfer Protocol |
+| SQL | Structured Query Language |
+| SQS | Simple Queue Service |
+| SSH | Secure Shell |
+| SSL | Secure Sockets Layer |
+| STRIDE | Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation of Privilege |
+| TDD | Test-Driven Development |
+| TFM | Trabajo Final de Máster (Master's Final Project) |
+| TLS | Transport Layer Security |
+| UPC | Universitat Politècnica de Catalunya |
+| URL | Uniform Resource Locator |
+| VCS | Version Control System |
+| VPN | Virtual Private Network |
+| WAF | Web Application Firewall |
+| XML | Extensible Markup Language |
+| ZAP | Zed Attack Proxy |
 
 ---
 
@@ -1025,17 +1119,89 @@ websec/
 
 ---
 
-**Document Information:**
-- **Total Word Count**: Approximately 8,200 words
-- **Last Updated**: November 2024
-- **Document Version**: 1.0
-- **GitHub Repository**: [github.com/alexcolls/websec](https://github.com/alexcolls/websec)
-- **Contact**: Alex Colls Outumuro - UPC Barcelona Cybersecurity Master's Program
-- **Academic Supervisor**: [To be specified by university]
-- **Thesis Defense Date**: [To be scheduled by university]
+---
+
+## Document Information
+
+**Thesis Metadata:**
+- **Title**: WebSec: A Comprehensive CLI-Based Security Testing and Privacy Protection Toolkit
+- **Author**: Alex Colls Outumuro
+- **Degree**: Master's Degree in Cybersecurity
+- **Institution**: Universitat Politècnica de Catalunya (UPC) - Barcelona
+- **Department**: Computer Architecture Department (DAC)
+- **Academic Year**: 2024-2025
+- **Submission Date**: November 2024
+- **Defense Date**: [To be scheduled]
+- **Supervisor**: [To be confirmed]
+
+**Document Details:**
+- **Word Count**: Approximately 10,000 words
+- **Last Updated**: November 5, 2024
+- **Document Version**: 1.0 (Final Submission)
+- **Document Type**: Trabajo Final de Máster (TFM) - Master's Final Thesis
+- **Language**: English
+- **Format**: Markdown (README.md)
+
+**Project Resources:**
+- **Main Repository**: [github.com/alexcolls/websec](https://github.com/alexcolls/websec)
+- **TFM Documentation**: [github.com/alexcolls/upc-tfm](https://github.com/alexcolls/upc-tfm)
+- **Project Website**: [WebSec CLI Toolkit](https://github.com/alexcolls/websec)
+
+**Contact Information:**
+- **Email**: [Your email - To be added]
+- **LinkedIn**: [Your profile - Optional]
+- **GitHub**: [@alexcolls](https://github.com/alexcolls)
 
 ---
 
-*This document represents the complete academic memory (memoria) for the WebSec Trabajo Final de Máster (TFM) submitted in partial fulfillment of the requirements for the Master's Degree in Cybersecurity at Universitat Politècnica de Catalunya (UPC) - Barcelona. The work demonstrates significant contributions to cybersecurity tooling through unified interface design, ethical framework integration, and educational accessibility enhancement.*
+## Declaration of Authenticity
 
-*© 2024 Alex Colls Outumuro. This work is licensed under the MIT License for the software components and Creative Commons Attribution 4.0 International License for the documentation components.*
+I hereby declare that this Master's thesis is the result of my own original work and that all sources have been accurately cited and acknowledged. This thesis has been submitted in partial fulfillment of the requirements for the Master's Degree in Cybersecurity at Universitat Politècnica de Catalunya (UPC) - Barcelona.
+
+The software implementation (WebSec) is released under the MIT License, and this academic documentation is released under the Creative Commons Attribution 4.0 International License, allowing for academic and educational reuse with proper attribution.
+
+**Signature**: [Alex Colls Outumuro]  
+**Date**: November 2024  
+**Location**: Barcelona, Spain
+
+---
+
+## License Information
+
+**Software License (WebSec):**
+```
+MIT License
+
+Copyright (c) 2024 Alex Colls Outumuro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+```
+
+**Documentation License (This TFM):**
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt this material for any purpose, including commercially, under the following terms:
+- **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+---
+
+*This document represents the complete academic memory (memoria) for the WebSec Trabajo Final de Máster (TFM) submitted in partial fulfillment of the requirements for the Master's Degree in Cybersecurity at Universitat Politècnica de Catalunya (UPC) - Barcelona.*
+
+*The work demonstrates significant contributions to cybersecurity tooling through unified interface design, ethical framework integration, and educational accessibility enhancement. The research addresses critical gaps in the cybersecurity tooling landscape while maintaining rigorous academic standards and promoting responsible security practices.*
+
+**© 2024 Alex Colls Outumuro | Universitat Politècnica de Catalunya (UPC) - Barcelona**
+
+---
+
+**End of Document**
