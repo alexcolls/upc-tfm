@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "WebSec: A Comprehensive CLI-Based Security Testing and Privacy Protection Toolkit"
+authors:
+  - family-names: Colls Outumuro
+    given-names: Alex
+    orcid: https://orcid.org/0000-0000-0000-0000
+version: "1.0"
+abstract: >-
+  Master's thesis documenting WebSec, a unified CLI toolkit combining offensive
+  security testing and defensive privacy tools, emphasizing zero-configuration
+  deployment, serverless monitoring, and ethical safeguards for education and practice.
+keywords: [cybersecurity, web security, CLI, privacy, serverless, DevSecOps]
+date-released: "2025-11-10"
+license: CC-BY-4.0
+repository-code: "https://github.com/alexcolls/upc-tfm"
+message: "If you use this work, please cite this repository and link to the generated PDF release."

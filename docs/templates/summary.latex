@@ -1,0 +1,19 @@
+% Minimal one-page summary template
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+
+\begin{document}
+\begin{center}
+{\Large \textbf{$title$}}\\[0.25cm]
+{\normalsize $for(author)$$author.name$$sep$; $endfor$ — $institution$ ($academic_year$)}\\[0.2cm]
+\end{center}
+
+$body$
+
+\end{document}
