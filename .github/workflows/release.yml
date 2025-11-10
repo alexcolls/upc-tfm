@@ -16,9 +16,9 @@ jobs:
       - name: Install dependencies (Pandoc + LaTeX)
         run: |
           sudo apt-get update
-sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra lmodern
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra lmodern
 
-- name: Build artefacts (PDF, slides, summary)
+      - name: Build artefacts (PDF, slides, summary)
         run: |
           make pdf
           make slides
@@ -27,7 +27,7 @@ sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texl
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-files: |
+          files: |
             build/thesis.pdf
             build/slides.pdf
             build/summary.pdf
