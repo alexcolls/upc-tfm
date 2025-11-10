@@ -1,0 +1,8 @@
+from: thesis.md
+to: ../build/thesis.pdf
+metadata-file:
+  - metadata.yaml
+pdf-engine: pdflatex
+template: templates/upc-tfm.latex
+standalone: true
+fail-if-warnings: false

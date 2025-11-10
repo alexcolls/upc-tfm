@@ -1,0 +1,55 @@
+% UPC TFM Pandoc/LaTeX template (minimal)
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+  citecolor=blue
+}
+\onehalfspacing
+
+% Title page
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\Large \textbf{$title$}\\[0.5cm]}
+{\large $degree$ \\
+$institution$ \\
+$department$}
+
+\vspace{2cm}
+\begin{tabular}{rl}
+$if(author)$Author: & $for(author)$$author.name$$sep$; $endfor$ \\ $endif$
+$if(supervisor)$Supervisor: & $supervisor$ \\ $endif$
+$if(academic_year)$Academic Year: & $academic_year$ \\ $endif$
+$if(submission_date)$Submission Date: & $submission_date$ \\ $endif$
+$if(defense_date)$Defense Date: & $defense_date$ \\ $endif$
+\end{tabular}
+
+\vfill
+$if(logo)$
+\includegraphics[width=0.25\textwidth]{$logo$}\\[0.5cm]
+$endif$
+\textit{Universitat Politècnica de Catalunya}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+$body$
+
+\end{document}
