@@ -19,7 +19,6 @@ This repository contains the academic thesis documentation for the UPC Master’
 - [Recommended Citation](#recommended-citation)
 - [Ethics & Legal](#ethics--legal)
 - [Acknowledgments](#acknowledgments)
-- [Tracking PR](#tracking-pr)
 
 ---
 
@@ -183,5 +182,3 @@ I gratefully acknowledge the supervision and guidance of Prof. Manel Medina, and
 
 ---
 
-## Tracking PR
-Active improvement PR: https://github.com/alexcolls/upc-tfm/pull/1
