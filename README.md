@@ -39,6 +39,28 @@ WebSec is a unified command-line toolkit that integrates offensive web security 
 
 ---
 
+## Master’s Degree in Cybersecurity (UPC) — Programme Overview
+Source: https://www.upc.edu/en/masters/cybersecurity
+
+- Aim and scope
+  - Provides a solid scientific grounding in information technology security to train highly specialised professionals in data, infrastructure and application protection.
+  - Official degree recorded in the Spanish Ministry of Education’s degree register.
+- Organisation and location
+  - Schools: Barcelona School of Telecommunications Engineering (ETSETB) and Barcelona School of Informatics (FIB).
+  - Delivery: Face‑to‑face (on‑campus), Barcelona. Language of instruction: English.
+  - Duration and start: 1 academic year, 60 ECTS; starts in September.
+- Learning outcomes (examples)
+  - Operate authentication, authorisation and auditing (AAA) protocols for information systems (e.g., databases).
+  - Apply network‑traffic monitoring and analysis techniques to detect cybersecurity attacks and investigate incidents.
+  - Design, develop, detect, analyse and eliminate malicious code (malware) capable of infecting and concealing itself within modern operating systems.
+  - Identify and apply techniques to maintain the security and privacy of distributed applications built on internet protocols.
+  - Carry out, present and defend an original, individual Master’s Thesis before an academic examination committee.
+- Admission (high‑level)
+  - General academic requirements for UPC master’s degrees apply; English level B2 is required (to be evidenced at enrolment).
+  - Recommended entrance backgrounds include: Telecommunications Science and Technology; technical telecommunications engineering; Audiovisual Systems Engineering; Electronic Systems Engineering; Telecommunications Systems Engineering; Network Engineering (and related computing/telecom disciplines).
+
+---
+
 ## Deliverables
 - Thesis (source):  
   https://github.com/alexcolls/upc-tfm/blob/main/docs/thesis.md
