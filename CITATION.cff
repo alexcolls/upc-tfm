@@ -3,7 +3,6 @@ title: "WebSec: A Comprehensive CLI-Based Security Testing and Privacy Protectio
 authors:
   - family-names: Colls Outumuro
     given-names: Alex
-    orcid: https://orcid.org/0000-0000-0000-0000
 version: "1.0"
 abstract: >-
   Master's thesis documenting WebSec, a unified CLI toolkit combining offensive
