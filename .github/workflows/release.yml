@@ -1,0 +1,35 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'tfm-*'
+      - 'v*.*.*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies (Pandoc + LaTeX)
+        run: |
+          sudo apt-get update
+sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra lmodern
+
+- name: Build artefacts (PDF, slides, summary)
+        run: |
+          make pdf
+          make slides
+          make summary
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+files: |
+            build/thesis.pdf
+            build/slides.pdf
+            build/summary.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

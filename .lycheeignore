@@ -1,0 +1,3 @@
+# Ignore ephemeral or rate-limited domains here if CI is noisy
+# Example:
+# https://example.com
