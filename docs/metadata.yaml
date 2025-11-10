@@ -1,0 +1,16 @@
+title: "WebSec: A Comprehensive CLI-Based Security Testing and Privacy Protection Toolkit"
+author:
+  - name: "Alex Colls Outumuro"
+degree: "Master's Degree in Cybersecurity"
+institution: "Universitat Politècnica de Catalunya (UPC) - Barcelona"
+department: "Computer Architecture Department (DAC)"
+supervisor: "Prof. Manel Medina"
+academic_year: "2024-2025"
+submission_date: "November 2025"
+# Optional logo path for title page (uncomment and provide a valid file)
+# logo: "docs/figures/upc_logo.png"
+
+# Bibliography (Pandoc)
+bibliography: references.bib
+nocite: |
+  @*
