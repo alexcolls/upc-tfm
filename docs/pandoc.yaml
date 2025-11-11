@@ -1,4 +1,6 @@
-from: thesis.md
+from: markdown
+input-files:
+  - thesis.md
 to: ../build/thesis.pdf
 metadata-file:
   - metadata.yaml
