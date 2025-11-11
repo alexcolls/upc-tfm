@@ -13,6 +13,8 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{calc}
+\usepackage{fancyvrb}
+\usepackage{framed}
 \usepackage{xcolor}
 \hypersetup{
   colorlinks=true,
@@ -25,6 +27,10 @@
 % Pandoc tightlist macro
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Define Shaded environment for code blocks
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\definecolor{shadecolor}{RGB}{248,248,248}
 
 % Title page
 \begin{document}
