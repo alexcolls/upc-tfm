@@ -31,6 +31,17 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+% CSLReferences environment for bibliography
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}[2]
+  {\begin{list}{}{%
+    \setlength{\itemindent}{0pt}
+    \setlength{\leftmargin}{\cslhangindent}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}}}
+  {\end{list}}
+
 % Define Shaded environment for code blocks
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
 \definecolor{shadecolor}{RGB}{248,248,248}
