@@ -20,6 +20,10 @@
 }
 \onehalfspacing
 
+% Pandoc tightlist macro
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 % Title page
 \begin{document}
 
