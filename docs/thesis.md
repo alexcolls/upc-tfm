@@ -805,7 +805,7 @@ def confirm_authorization() -> bool:
     with comprehensive legal warnings and user education
     """
     print("\n" + "=" * 70)
-    print("⚠️  LEGAL WARNING: AUTHORIZATION REQUIRED")
+    print("⚠  LEGAL WARNING: AUTHORIZATION REQUIRED")
     print("=" * 70)
     print("This tool performs security testing that may be considered")
     print("unauthorized access if used without proper permission.")
