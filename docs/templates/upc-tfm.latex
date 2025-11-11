@@ -34,13 +34,15 @@
 % CSLReferences environment for bibliography
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
 \newenvironment{CSLReferences}[2]
-  {\begin{list}{}{%
-    \setlength{\itemindent}{0pt}
-    \setlength{\leftmargin}{\cslhangindent}
-    \setlength{\itemsep}{0pt}
-    \setlength{\parsep}{0pt}}}
-  {\end{list}}
+  {}
+  {}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 % Define Shaded environment for code blocks
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
