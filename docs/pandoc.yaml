@@ -8,3 +8,4 @@ pdf-engine: pdflatex
 template: templates/upc-tfm.latex
 standalone: true
 fail-if-warnings: false
+highlight-style: null
