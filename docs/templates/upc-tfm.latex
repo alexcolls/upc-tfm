@@ -32,6 +32,9 @@
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
 \definecolor{shadecolor}{RGB}{248,248,248}
 
+% Define Highlighting environment for syntax highlighting
+\newenvironment{Highlighting}{\begin{Shaded}}{\end{Shaded}}
+
 % Title page
 \begin{document}
 
