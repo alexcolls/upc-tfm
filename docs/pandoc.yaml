@@ -1,7 +1,7 @@
 from: markdown
 input-files:
   - thesis.md
-to: ../build/thesis.pdf
+output-file: ../build/thesis.pdf
 metadata-file:
   - metadata.yaml
 pdf-engine: pdflatex
